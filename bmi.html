@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<title>AGE 18</title>
+<body background-color=yellow>
+	<script>
+		var hellow = (window.prompt("hellow are you a girl or a boy?" ,"girl or boy"));
+		var hight = (window.prompt("what is your hight?"));
+		var weigh = (window.prompt("how much do you weigh?"));
+		if (hellow == "boy" )
+		{
+			var BMI =  weigh / (hight / 100 * 2) + 3
+			document.write(""+BMI+"");
+				if (BMI <= 18.4)
+			{
+				document.write("<br><br> BMI נתוניך מצביעים על כך שמשקלך נמצא בקטגוריית תת משקל, משקל תקין ניצא בן 18.5 ל 25");
+			}
+			
+			if (BMI >= 18.5 && BMI <= 25)
+			{
+				document.write("<br><br>BMI נתוניך מצביעים על כך שמשקלך נמצא בקטגוריית משקל תקין,  משקל תקין נמצא בן 18.5 ל 25");
+			}
+					
+			if (BMI > 25 && BMI <= 30)
+			{
+				document.write("<br><br>BMI נתוניך מצביעים על כך שמשקלך נמצא בקטגוריית עודף משקל, משקל תקין נמצא בן 18.5 ל 25");
+			}
+			
+			if (BMI > 30)
+			{
+				document.write("<br><br>BMI נתוניך מצביעים על כך שמשקלך נמצא בקטגוריית השמנת יתר, משקל תקין נמצא בן 18.5 ל 25");
+			}
+		}
+		
+		else 
+		{	
+			if (hellow == "girl" )
+			{
+				var BMI =  weigh / (hight / 100 * 2) + 3
+				document.write(""+BMI+"");
+				
+				if (BMI <= 18.4)
+				{
+					document.write("<br><br> BMI נתוניך מצביעים על כך שמשקלך נמצא בקטגוריית תת משקל, משקל תקין ניצא בן 18.5 ל 25");
+				}
+							
+				if (BMI >= 18.5 && BMI <= 25)
+				{
+					document.write("<br><br>BMI נתוניך מצביעים על כך שמשקלך נמצא בקטגוריית משקל תקין,  משקל תקין נמצא בן 18.5 ל 25");
+				}
+				
+				if (BMI > 25 && BMI <= 30)
+				{
+					document.write("<br><br>BMI נתוניך מצביעים על כך שמשקלך נמצא בקטגוריית עודף משקל, משקל תקין נמצא בן 18.5 ל 25");
+				}
+
+				if (BMI > 30)
+				{
+					document.write("<br><br>BMI נתוניך מצביעים על כך שמשקלך נמצא בקטגוריית השמנת יתר, משקל תקין נמצא בן 18.5 ל 25");
+				}
+
+			}
+			else
+			{
+				var BMI =  weigh / (hight / 100 * 2) + 3
+				document.write(""+BMI+"");
+				
+				if (BMI <= 18.4)
+				{
+					document.write("<br><br> BMI נתוניך מצביעים על כך שמשקלך נמצא בקטגוריית תת משקל, משקל תקין ניצא בן 18.5 ל 25");
+				}
+
+				if (BMI >= 18.5 && BMI <= 25)
+				{
+					document.write("<br><br>BMI נתוניך מצביעים על כך שמשקלך נמצא בקטגוריית משקל תקין,  משקל תקין נמצא בן 18.5 ל 25");
+				}
+				
+				if (BMI > 25 && BMI <= 30)
+				{
+					document.write("<br><br>BMI נתוניך מצביעים על כך שמשקלך נמצא בקטגוריית עודף משקל, משקל תקין נמצא בן 18.5 ל 25");
+				}
+
+				if (BMI > 30)
+				{
+					document.write("<br><br>BMI נתוניך מצביעים על כך שמשקלך נמצא בקטגוריית השמנת יתר, משקל תקין נמצא בן 18.5 ל 25");
+				}
+
+			}
+		}			
+	</script>
+</body>
